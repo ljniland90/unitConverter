@@ -1,10 +1,12 @@
 function calculator(){
 
-    let num1 = Number(prompt("Enter the first number:  "));
-    let num2 = Number(prompt("Enter the second number:  "));
-    let result = num1;
 
-    let s = "\n";
+
+    let operand1 = Number(prompt("Enter the first number:"));
+    let operand2 = Number(prompt("Enter the second number:"));
+    let result = operand1;
+
+    const s = "\n";
     let menu = "Select the Operation:" + s +
             "1. Addition" + s +
             "2. Subtraction" + s +
@@ -17,16 +19,16 @@ function calculator(){
 
     switch(choice){
         case 1:
-            result += num2;
+            result += operand2;
             break;
         case 2:
-            result -= num2;
+            result -= operand2;
             break;
         case 3:
-            result *= num2;
+            result *= operand2;
             break;
         case 4:
-            result /= num2;
+            result /= operand2;
             break;
     }
         
@@ -38,7 +40,7 @@ function calculator(){
     let response = "Result:  " + result;
     console.log(response);
 
-    document.getElementById("calculator").innerHTML+=
-    `<div><p>${response}</p></div>`
+    document.getElementById("answer").innerHTML+=
+    `<div><p class="pAnswer">${response}</p></div>`
 
 }

@@ -1,0 +1,64 @@
+*{
+    padding: 5px;
+    margin: 5px;
+}
+
+p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.pAnswer{
+    margin-left: 50px;
+    text-align: left;
+}
+
+.titleP{
+font-family: 'Lucida Sans Unicode';
+font-size: 20px;
+font-weight: 800;
+background-color: rgb(11, 200, 23);
+color: black;
+border-bottom-style: double;
+border-color: black;
+margin-left: auto;
+margin-right: auto;
+border-radius: 15px;
+}
+
+
+.menu{
+    width: fit-content;
+    height: fit-content;
+    vertical-align: 50px;
+    margin-left: 50px;
+    background-color: black;
+    color: rgb(11, 200, 23);
+    border-style:groove;
+    border-color: black;
+}
+
+button{
+    background-color: rgb(11, 200, 23);
+    color: black;
+    font-size: 12px;
+    font-weight: 550;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ol{
+    color: rgb(11, 200, 23);
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+ol.li{
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+} */
