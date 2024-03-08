@@ -14,5 +14,5 @@ function c2f(){
     let c= getData();
     let f = c*(9/5) + 32;
     let fs = tempFormat(f);
-    document.getElementById("translation").textContent = fs;
+    document.getElementById("translation").textContent = fs + " F";
 }
